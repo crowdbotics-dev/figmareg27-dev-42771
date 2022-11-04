@@ -1,6 +1,6 @@
 import axios from "axios"
 const figmaregAPI = axios.create({
-  baseURL: "https://figmareg27-dev-42771-prod.herokuapp.com",
+  baseURL: "https://figmareg27-dev-42771.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_login_create(payload) {
